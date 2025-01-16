@@ -14,3 +14,10 @@ ul ol{
     margin: 0 auto;
 }
 /* All Common Css End */
+
+/* Header Part Start */
+#headerPart{
+    padding: 50px 0;
+    background: rgb(0, 0, 0, 0.5);
+}
+/* Header Part End */
