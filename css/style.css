@@ -42,6 +42,9 @@ ul li{
     font-family: "Source Sans 3", serif;
     font-size: 20px;
     text-transform: uppercase;
+    padding: 6px 40px;
+    background: #ebcf92;
+    border-radius: 15px;
 }
 .listItem ul li{
     display: inline-block;
@@ -55,7 +58,26 @@ ul li{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.overLay{
+    background: rgb(0, 0, 0, 0.6);
     padding: 400px 0;
+}
+.overLay h1{
+    color: #fff;
+    text-align: center;
+    font-size: 54PX;
+    font-family: "Playfair Display", serif;
+    padding: 0 40PX;
+}
+/* Banner Part End */
+.overLay p{
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+    font-family: "Source Sans 3", serif;
+    padding: 0 280px;
+    margin-top: 20px;
 }
 /* Banner Part End */
 
