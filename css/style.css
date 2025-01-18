@@ -81,3 +81,25 @@ ul li{
 }
 /* Banner Part End */
 
+/* Body Part1 Start */
+#bodyPartOne{
+
+}
+.bodyoneParent{
+    display: flex;
+    align-items: center;
+}
+.contentOne h3{ 
+    font-size: 29px;
+    font-family: "Playfair Display", serif;
+    padding: 0 25px;
+}
+.contentOne p{ 
+    font-size: 19px;
+    font-family: "Source Sans 3", serif;
+    padding: 0 25px;
+    margin-top: 20px;
+}
+
+/* Body Part1 End */
+
