@@ -18,30 +18,44 @@ ul li{
 /* Header Part Start */
 #headerPart{
     padding: 50px 0;
-    background: black;
+    background: rgb(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .listItem ul li a{
     color: #fff;
     font-family: "Source Sans 3", serif;
     font-size: 20px;
+    text-transform: uppercase;
+}
+.buttonSearch a{
+    color: #fff;
+    font-family: "Source Sans 3", serif;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 .listItem ul li{
     display: inline-block;
     padding: 0 25px;
 }
-button{
-    background: #d6c394;
-    height: 30px;
-    width: 110px;
-    color: #fff;
-    font-family: "Source Sans 3", serif;
-    font-size: 20px;
-    border-radius: 5px;
-}
 /* Header Part End */
+
+/* Banner Part Start */
+#bannerPart{
+    background: url(../images/slider-01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 400px 0;
+}
+/* Banner Part End */
+
