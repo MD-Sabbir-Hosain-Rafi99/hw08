@@ -22,6 +22,7 @@ ul li {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1000;
   width: 100%;
 }
 
@@ -166,3 +167,70 @@ ul li {
     padding-bottom: 80px;
 }
 /* Service Part End */
+
+/* About Part Start */
+#aboutPart{
+  padding: 100px 0;
+}
+.flexAbout{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+
+.aboutLItem{
+  width: 50%;
+}
+.aboutLItem h3{
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+.aboutLItem p{
+  font-family: "Source Sans 3", serif;
+  font-size: 19px;
+  color: #606060;
+}
+.aboutRItem{
+  width: 50%;
+}
+.aboutRItem img{
+  width: 100%;
+}
+
+.box{
+  height: 225px;
+  width: 225px;
+  background: #e4b855;
+  border: 15px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box h3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  font-family: "Source Sans 3", serif;
+  color: #e8e8e8;
+}
+
+/* About Text Start */
+.aboutText{
+  text-align: center;
+  padding-bottom: 85px;
+}
+.aboutText h3{
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+.aboutText p{
+  font-family: "Source Sans 3", serif;
+  font-size: 19px;
+  color: #606060;
+}
+/* About Text End */
+/* About Part End */
