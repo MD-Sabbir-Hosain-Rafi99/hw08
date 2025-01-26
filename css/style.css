@@ -5,6 +5,7 @@
 }
 a {
   text-decoration: none;
+  font-family: "Source Sans 3", serif;
 }
 ul li {
   list-style-type: none;
@@ -131,11 +132,10 @@ ul li {
   webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
-  transition: .4s;
+  transition: 0.4s;
 }
 .serviceItem i {
   font-size: 61px;
-
 }
 .serviceItem h3 {
   font-size: 18px;
@@ -151,54 +151,54 @@ ul li {
   -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
 }
-.serviceText{
-    text-align: center;
+.serviceText {
+  text-align: center;
 }
-.serviceText h2{
-    color: #fff;
-    font-size: 30px;
-    font-family: "Playfair Display", serif;
+.serviceText h2 {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
 }
-.serviceText p{
-    color: #ababab;
-    font-size: 20px;
-    font-family: "Source Sans 3", serif;
-    padding-top: 42px;
-    padding-bottom: 80px;
+.serviceText p {
+  color: #ababab;
+  font-size: 20px;
+  font-family: "Source Sans 3", serif;
+  padding-top: 42px;
+  padding-bottom: 80px;
 }
 /* Service Part End */
 
 /* About Part Start */
-#aboutPart{
+#aboutPart {
   padding: 100px 0;
 }
-.flexAbout{
+.flexAbout {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   position: relative;
 }
 
-.aboutLItem{
+.aboutLItem {
   width: 50%;
 }
-.aboutLItem h3{
+.aboutLItem h3 {
   font-family: "Playfair Display", serif;
   font-size: 25px;
 }
-.aboutLItem p{
+.aboutLItem p {
   font-family: "Source Sans 3", serif;
   font-size: 19px;
   color: #606060;
 }
-.aboutRItem{
+.aboutRItem {
   width: 50%;
 }
-.aboutRItem img{
+.aboutRItem img {
   width: 100%;
 }
 
-.box{
+.box {
   height: 225px;
   width: 225px;
   background: #e4b855;
@@ -208,7 +208,7 @@ ul li {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.box h3{
+.box h3 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -219,18 +219,100 @@ ul li {
 }
 
 /* About Text Start */
-.aboutText{
+.aboutText {
   text-align: center;
   padding-bottom: 85px;
 }
-.aboutText h3{
+.aboutText h3 {
   font-family: "Playfair Display", serif;
   font-size: 25px;
 }
-.aboutText p{
+.aboutText p {
   font-family: "Source Sans 3", serif;
   font-size: 19px;
   color: #606060;
 }
 /* About Text End */
 /* About Part End */
+
+/* Speaker Part Start */
+.textPart {
+  text-align: center;
+}
+.textPart h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  padding-bottom: 14px;
+}
+.textPart p {
+  font-family: "Source Sans 3", serif;
+  font-size: 19px;
+  color: #606060;
+  padding-bottom: 90px;
+}
+
+/* Speaker Image Part Start */
+.flexSpeaker{
+  display: flex;
+  justify-content: space-between;
+}
+.Speaker {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+}
+.Speaker2 {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+}
+
+
+picture img {
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+  width: 945px; 
+  background: rgba(0, 0, 0, 0.781);
+}
+
+.textOnOvelay h3{
+  font-size: 25px;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  padding-top: 62px;
+}
+
+.textOnOvelay p{
+  font-size: 18px;
+  color: #606060;
+  font-family: "Source Sans 3", serif;
+}
+
+.iconOnOverlay i{
+  font-size: 30px;
+  color: #fff;
+  padding-right: 20px;
+  transition: 0.4s;
+}
+.iconOnOverlay i:hover{
+  color: #e4b855;
+}
+.textOnOvelay,
+h3,
+p,
+a{
+  padding-bottom: 20px;
+}
+
+.flexOnOverlay{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Speaker Image Part End */
+/* Speaker Part End */
